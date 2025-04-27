@@ -1,0 +1,19 @@
+/* Standard paragraph style */
+p {
+    color: red;
+    font-size: 22pt;
+}
+
+/* Bold green paragraph */
+#gruby_kapral {
+    color: green;
+    font-size: 17pt;
+    font-weight: bold;
+}
+
+/* Universal identifier */
+#dlawszyskich_kapral {
+    color: yellow;
+    font-size: 10pt;
+    font-family: Arial;
+}

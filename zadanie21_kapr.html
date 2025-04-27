@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 21 - ID w CSS</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        #przyklad {
+            color: green;
+            font-size: 14pt;
+        }
+        #przyklad-specjalny {
+            font-style: italic;
+            font-size: 20pt;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Identyfikatory (ID) w CSS</h1>
+    
+    <table>
+        <tr>
+            <th>Pojęcie</th>
+            <th>Znaczenie pojęcia</th>
+        </tr>
+        <tr>
+            <td>Co znaczy skrót ID?</td>
+            <td>ID to skrót od "Identifier" - unikalny identyfikator elementu w dokumencie HTML</td>
+        </tr>
+        <tr>
+            <td>Jaki jest cel stosowania ID?</td>
+            <td>Pozwala na przypisanie unikalnego stylu lub zachowania do konkretnego elementu strony</td>
+        </tr>
+        <tr>
+            <td>Jakie jest znaczenie znaku #</td>
+            <td>W CSS znak # poprzedza nazwę identyfikatora podczas jego definiowania</td>
+        </tr>
+        <tr>
+            <td>Jak następuje wywołanie ID (wraz z wytłumaczeniem)?</td>
+            <td>W HTML: &lt;element id="nazwa"&gt;, w CSS: #nazwa { właściwości }</td>
+        </tr>
+        <tr>
+            <td>Uwagi na temat stosowania ID (trzy konieczne wyliczenia)</td>
+            <td>
+                <ol>
+                    <li>ID musi być unikalne w całym dokumencie</li>
+                    <li>Element może mieć tylko jedno ID</li>
+                    <li>ID ma wyższy priorytet niż klasy w kaskadowaniu stylów</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+
+    <h2>Przykład użycia ID</h2>
+    <p id="przyklad">Zwykły paragraf ze stylem domyślnym</p>
+    <p id="przyklad-specjalny">Paragraf ze specjalnym ID (pochylony i większy)</p>
+    <p id="przyklad">Kolejny zwykły paragraf</p>
+</body>
+</html>
+<!-- Imię i nazwisko: Antoni Kapral -->
