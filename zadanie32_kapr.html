@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 32 - Model pudełkowy</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            font-size: 24px;
+            color: #333;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f5f5f5;
+        }
+        .image-container {
+            text-align: center;
+            margin: 25px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .image-caption {
+            font-style: italic;
+            color: #666;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Main content starts here (link removed) -->
+    <h1>5. Podaj definicję modelu pudełkowego.</h1>
+    <p>Model pudełkowy (ang. Box Model) to sposób, w jaki przeglądarka renderuje każdy element HTML jako prostokątne pudełko składające się z: zawartości (content), dopełnienia (padding), obramowania (border) i marginesu (margin).</p>
+
+    <h1>6. Tabela modelu pudełkowego</h1>
+    <table>
+        <tr><th>zawartość</th><th>Opis</th></tr>
+        <tr><td>content</td><td>Zawartość elementu (np. tekst, obrazek)</td></tr>
+        <tr><td>padding</td><td>Margines wewnętrzny (odstęp między obramowaniem a zawartością)</td></tr>
+        <tr><td>border</td><td>Obramowanie wokół zawartości (ma styl i kolor)</td></tr>
+        <tr><td>margin</td><td>Margines zewnętrzny (przezroczysty obszar poza obramowaniem)</td></tr>
+    </table>
+
+    <h1>7. Uwagi o modelu pudełkowym</h1>
+    <p><strong>Uwaga 1:</strong> Padding, border i margin mogą mieć zerową wartość.</p>
+    <p><strong>Uwaga 2:</strong> Tło elementu nie obejmuje marginesów zewnętrznych (margin), które są zawsze przezroczyste.</p>
+
+    <h1>8. Grafika modelu pudełkowego</h1>
+    <div class="image-container">
+        <img src="image.png" alt="Model pudełkowy">
+        <div class="image-caption">Warstwy modelu pudełkowego: content (zawartość), padding (dopełnienie), border (obramowanie), margin (margines).</div>
+    </div>
+
+    <h1>9. Różnica między paddingiem a marginesem</h1>
+<div class="image-container">
+    <img src="image copy.png" alt="Różnica między paddingiem a marginesem">
+    <div class="image-caption">Padding (wewnętrzny odstęp) i margin (zewnętrzny odstęp) — różnice w modelu pudełkowym.</div>
+</div>
+    </div>
+</body>
+</html>

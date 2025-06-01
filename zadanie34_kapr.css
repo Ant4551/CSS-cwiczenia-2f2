@@ -1,0 +1,10 @@
+/* Antoni Kapral 2F */
+h3 {
+    width: 200px;
+    height: 3cm;
+    padding: 10px;
+    border: 4px inset #800080;  /* Style 7 (inset), Color 6 (purple) */
+    background: rgb(255, 100, 100);  /* Dark red */
+    font-size: 12px;
+    text-align: center;
+}
